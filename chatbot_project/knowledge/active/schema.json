@@ -1,0 +1,398 @@
+{
+  "model_name": "MavenMarket",
+  "tables": {
+    "MavenMarket_Calendar": {
+      "role": "Dimension",
+      "grain": "One row per date (1997-1998)",
+      "row_count": 730,
+      "columns": {
+        "transaction_date": {
+          "type": "date",
+          "description": "Calendar date (DD-MM-YYYY), primary key"
+        },
+        "year": {
+          "type": "int",
+          "description": "Year (1997 or 1998)"
+        },
+        "month_number": {
+          "type": "int",
+          "description": "Month number 1-12"
+        },
+        "month_name": {
+          "type": "string",
+          "description": "Month name (January, February, ...)"
+        },
+        "quarter": {
+          "type": "int",
+          "description": "Quarter number 1-4"
+        },
+        "day_of_week": {
+          "type": "string",
+          "description": "Day name (Monday, Tuesday, ...)"
+        },
+        "day_of_month": {
+          "type": "int",
+          "description": "Day of month 1-31"
+        },
+        "week_of_year": {
+          "type": "int",
+          "description": "Week number 1-52"
+        },
+        "start_of_week": {
+          "type": "date",
+          "description": "First date of the week"
+        },
+        "start_of_month": {
+          "type": "date",
+          "description": "First date of the month"
+        }
+      }
+    },
+    "MavenMarket_Customers": {
+      "role": "Dimension",
+      "grain": "One row per customer",
+      "row_count": 10281,
+      "columns": {
+        "customer_id": {
+          "type": "int",
+          "description": "Unique customer identifier, primary key"
+        },
+        "customer_acct_num": {
+          "type": "string",
+          "description": "Customer account number"
+        },
+        "first_name": {
+          "type": "string",
+          "description": "Customer first name"
+        },
+        "last_name": {
+          "type": "string",
+          "description": "Customer last name"
+        },
+        "full_name": {
+          "type": "string",
+          "description": "Full name (first + last)"
+        },
+        "customer_address": {
+          "type": "string",
+          "description": "Street address"
+        },
+        "customer_city": {
+          "type": "string",
+          "description": "City"
+        },
+        "customer_state_province": {
+          "type": "string",
+          "description": "State or province"
+        },
+        "customer_postal_code": {
+          "type": "string",
+          "description": "Postal/zip code"
+        },
+        "customer_country": {
+          "type": "string",
+          "description": "Country (USA, Canada, Mexico)"
+        },
+        "birthdate": {
+          "type": "date",
+          "description": "Customer birth date"
+        },
+        "marital_status": {
+          "type": "string",
+          "description": "Marital status (M=Married, S=Single)"
+        },
+        "yearly_income": {
+          "type": "string",
+          "description": "Income bracket ($10K-$30K, $30K-$50K, etc.)"
+        },
+        "gender": {
+          "type": "string",
+          "description": "Gender (M=Male, F=Female)"
+        },
+        "total_children": {
+          "type": "int",
+          "description": "Total number of children"
+        },
+        "num_children_at_home": {
+          "type": "int",
+          "description": "Number of children living at home"
+        },
+        "education": {
+          "type": "string",
+          "description": "Education level (Partial High School, High School Degree, Partial College, Bachelors Degree, Graduate Degree)"
+        },
+        "acct_open_date": {
+          "type": "date",
+          "description": "Account opening date"
+        },
+        "member_card": {
+          "type": "string",
+          "description": "Loyalty card tier (Normal, Bronze, Silver, Gold)"
+        },
+        "occupation": {
+          "type": "string",
+          "description": "Occupation (Professional, Skilled Manual, Manual, Clerical, Management)"
+        },
+        "homeowner": {
+          "type": "string",
+          "description": "Homeowner status (Y/N)"
+        }
+      }
+    },
+    "MavenMarket_Products": {
+      "role": "Dimension",
+      "grain": "One row per product",
+      "row_count": 1560,
+      "columns": {
+        "product_id": {
+          "type": "int",
+          "description": "Unique product identifier, primary key"
+        },
+        "product_brand": {
+          "type": "string",
+          "description": "Brand name"
+        },
+        "product_name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "product_sku": {
+          "type": "string",
+          "description": "Stock keeping unit"
+        },
+        "product_retail_price": {
+          "type": "float",
+          "description": "Retail price in dollars"
+        },
+        "product_cost": {
+          "type": "float",
+          "description": "Cost price in dollars"
+        },
+        "product_weight": {
+          "type": "float",
+          "description": "Product weight"
+        },
+        "recyclable": {
+          "type": "int",
+          "description": "Is recyclable (0=No, 1=Yes)"
+        },
+        "low_fat": {
+          "type": "int",
+          "description": "Is low fat (0=No, 1=Yes)"
+        },
+        "price_margin": {
+          "type": "float",
+          "description": "Price margin (retail - cost)"
+        }
+      },
+      "calculated_columns": {
+        "Price Tier": "Categorizes products into price tiers (Low, Mid, High) based on product_retail_price"
+      }
+    },
+    "MavenMarket_Stores": {
+      "role": "Dimension",
+      "grain": "One row per store",
+      "row_count": 24,
+      "columns": {
+        "store_id": {
+          "type": "int",
+          "description": "Unique store identifier, primary key"
+        },
+        "region_id": {
+          "type": "int",
+          "description": "Foreign key to Regions table"
+        },
+        "store_type": {
+          "type": "string",
+          "description": "Store type (Supermarket, Deluxe Supermarket, Gourmet Supermarket, Small Grocery, Mid-Size Grocery)"
+        },
+        "store_name": {
+          "type": "string",
+          "description": "Store name (Store 1, Store 2, ...)"
+        },
+        "store_street_address": {
+          "type": "string",
+          "description": "Street address"
+        },
+        "store_city": {
+          "type": "string",
+          "description": "City"
+        },
+        "store_state": {
+          "type": "string",
+          "description": "State"
+        },
+        "store_country": {
+          "type": "string",
+          "description": "Country (USA, Canada, Mexico)"
+        },
+        "store_phone": {
+          "type": "string",
+          "description": "Phone number"
+        },
+        "first_opened_date": {
+          "type": "date",
+          "description": "Date store first opened"
+        },
+        "last_remodel_date": {
+          "type": "date",
+          "description": "Date of last remodel"
+        },
+        "total_sqft": {
+          "type": "int",
+          "description": "Total square footage"
+        },
+        "grocery_sqft": {
+          "type": "int",
+          "description": "Grocery section square footage"
+        }
+      }
+    },
+    "MavenMarket_Regions": {
+      "role": "Dimension",
+      "grain": "One row per region",
+      "row_count": 109,
+      "columns": {
+        "region_id": {
+          "type": "int",
+          "description": "Unique region identifier, primary key"
+        },
+        "sales_district": {
+          "type": "string",
+          "description": "Sales district name"
+        },
+        "sales_region": {
+          "type": "string",
+          "description": "Sales region name"
+        }
+      }
+    },
+    "MavenMarket_Transactions": {
+      "role": "Fact",
+      "grain": "One row per transaction line item",
+      "row_count": 269720,
+      "columns": {
+        "transaction_date": {
+          "type": "date",
+          "description": "Transaction date, foreign key to Calendar"
+        },
+        "stock_date": {
+          "type": "date",
+          "description": "Stock/inventory date"
+        },
+        "product_id": {
+          "type": "int",
+          "description": "Foreign key to Products"
+        },
+        "customer_id": {
+          "type": "int",
+          "description": "Foreign key to Customers"
+        },
+        "store_id": {
+          "type": "int",
+          "description": "Foreign key to Stores"
+        },
+        "quantity": {
+          "type": "int",
+          "description": "Quantity purchased"
+        }
+      }
+    },
+    "MavenMarket_Returns": {
+      "role": "Fact",
+      "grain": "One row per return line item",
+      "row_count": 7087,
+      "columns": {
+        "return_date": {
+          "type": "date",
+          "description": "Return date, foreign key to Calendar"
+        },
+        "product_id": {
+          "type": "int",
+          "description": "Foreign key to Products"
+        },
+        "store_id": {
+          "type": "int",
+          "description": "Foreign key to Stores"
+        },
+        "quantity": {
+          "type": "int",
+          "description": "Quantity returned"
+        }
+      }
+    },
+    "MavenMarket_Measures": {
+      "role": "Measure Table",
+      "grain": "DAX measures only, no rows",
+      "row_count": 0,
+      "description": "Dedicated table for storing all DAX measures"
+    }
+  },
+  "relationships": [
+    {
+      "from_table": "MavenMarket_Transactions",
+      "from_column": "transaction_date",
+      "to_table": "MavenMarket_Calendar",
+      "to_column": "transaction_date",
+      "cardinality": "Many-to-One",
+      "active": true
+    },
+    {
+      "from_table": "MavenMarket_Transactions",
+      "from_column": "customer_id",
+      "to_table": "MavenMarket_Customers",
+      "to_column": "customer_id",
+      "cardinality": "Many-to-One",
+      "active": true
+    },
+    {
+      "from_table": "MavenMarket_Transactions",
+      "from_column": "product_id",
+      "to_table": "MavenMarket_Products",
+      "to_column": "product_id",
+      "cardinality": "Many-to-One",
+      "active": true
+    },
+    {
+      "from_table": "MavenMarket_Transactions",
+      "from_column": "store_id",
+      "to_table": "MavenMarket_Stores",
+      "to_column": "store_id",
+      "cardinality": "Many-to-One",
+      "active": true
+    },
+    {
+      "from_table": "MavenMarket_Returns",
+      "from_column": "return_date",
+      "to_table": "MavenMarket_Calendar",
+      "to_column": "transaction_date",
+      "cardinality": "Many-to-One",
+      "active": false,
+      "note": "Inactive relationship, activated via USERELATIONSHIP in DAX"
+    },
+    {
+      "from_table": "MavenMarket_Returns",
+      "from_column": "product_id",
+      "to_table": "MavenMarket_Products",
+      "to_column": "product_id",
+      "cardinality": "Many-to-One",
+      "active": true
+    },
+    {
+      "from_table": "MavenMarket_Returns",
+      "from_column": "store_id",
+      "to_table": "MavenMarket_Stores",
+      "to_column": "store_id",
+      "cardinality": "Many-to-One",
+      "active": true
+    },
+    {
+      "from_table": "MavenMarket_Stores",
+      "from_column": "region_id",
+      "to_table": "MavenMarket_Regions",
+      "to_column": "region_id",
+      "cardinality": "Many-to-One",
+      "active": true
+    }
+  ]
+}

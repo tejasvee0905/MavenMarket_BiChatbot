@@ -1,0 +1,8 @@
+langchain>=1.2
+langchain-openai>=1.1
+langchain-community>=0.4
+langchain-text-splitters>=1.1
+faiss-cpu>=1.13
+streamlit>=1.56
+pandas>=3.0
+python-dotenv>=1.0

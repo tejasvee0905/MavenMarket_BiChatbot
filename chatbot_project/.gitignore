@@ -1,0 +1,27 @@
+# ── Secrets ──
+.env
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── Virtual Environment ──
+venv/
+
+# ── FAISS index (rebuild with: python -m ai.embed_pipeline) ──
+ai/vectorstore/*.faiss
+ai/vectorstore/*.pkl
+
+# ── PBIX extracted contents (large binary files) ──
+data/pbix/pbix_extracted/
+
+# ── OS / IDE ──
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo

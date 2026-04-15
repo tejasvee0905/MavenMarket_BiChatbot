@@ -1,0 +1,375 @@
+[
+  {
+    "name": "Page 1",
+    "ordinal": 0,
+    "visuals": [
+      {
+        "type": "cardVisual",
+        "fields": {
+          "Data": [
+            "MavenMarket_Measures.Total Profit",
+            "MavenMarket_Measures.Total Revenue",
+            "MavenMarket_Measures.Profit Margin",
+            "MavenMarket_Measures.Total Transactions",
+            "MavenMarket_Measures.Return Rate"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "areaChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Calendar.month_name"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ],
+          "Series": [
+            "MavenMarket_Calendar.year"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "azureMap",
+        "fields": {
+          "Category": [
+            "MavenMarket_Stores.store_country"
+          ],
+          "Size": [
+            "MavenMarket_Measures.Total Revenue"
+          ],
+          "Series": [
+            "MavenMarket_Calendar.year"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "columnChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Products.product_name"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": [
+          ""
+        ]
+      },
+      {
+        "type": "donutChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Products.Price Tier"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Calendar.year"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Stores.store_country"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "pieChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Stores.store_country"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "donutChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Calendar.month_name"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Revenue Last 60 Days"
+          ]
+        },
+        "filters": []
+      }
+    ]
+  },
+  {
+    "name": "Page 2",
+    "ordinal": 1,
+    "visuals": [
+      {
+        "type": "cardVisual",
+        "fields": {
+          "Data": [
+            "MavenMarket_Measures.Store Count",
+            "MavenMarket_Measures.Weekend Revenue",
+            "MavenMarket_Measures.Revenue per Sqft",
+            "MavenMarket_Measures.Total Quantity Sold",
+            "MavenMarket_Measures.Total Returns",
+            "MavenMarket_Measures.Total Products Sold"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "tableEx",
+        "fields": {
+          "Values": [
+            "MavenMarket_Stores.store_name",
+            "MavenMarket_Measures.Total Revenue",
+            "MavenMarket_Measures.Total Profit",
+            "MavenMarket_Measures.Total Cost",
+            "MavenMarket_Measures.Profit Margin"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "barChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Regions.sales_region"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "donutChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Stores.store_type"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "lineChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Stores.store_name"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Transactions"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Stores.store_country"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Regions.sales_region"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Stores.store_type"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "azureMap",
+        "fields": {
+          "Category": [
+            "MavenMarket_Stores.store_city"
+          ]
+        },
+        "filters": []
+      }
+    ]
+  },
+  {
+    "name": "Page 3",
+    "ordinal": 2,
+    "visuals": [
+      {
+        "type": "cardVisual",
+        "fields": {
+          "Data": [
+            "MavenMarket_Measures.Total Customers",
+            "MavenMarket_Measures.Transactions per Customer",
+            "MavenMarket_Measures.Revenue per Customer",
+            "MavenMarket_Measures.Total Quantity Sold"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "pieChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Customers.gender"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Transactions per Customer"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "tableEx",
+        "fields": {
+          "Values": [
+            "MavenMarket_Customers.gender",
+            "MavenMarket_Measures.Total Customers"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "pieChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Customers.gender"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "barChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Customers.yearly_income"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ],
+          "Series": [
+            "MavenMarket_Customers.gender"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "donutChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Customers.education"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "donutChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Customers.occupation"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "donutChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Customers.customer_country"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Customers"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "donutChart",
+        "fields": {
+          "Category": [
+            "MavenMarket_Customers.marital_status"
+          ],
+          "Y": [
+            "MavenMarket_Measures.Total Revenue"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Customers.education"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Customers.member_card"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "slicer",
+        "fields": {
+          "Values": [
+            "MavenMarket_Customers.occupation"
+          ]
+        },
+        "filters": []
+      },
+      {
+        "type": "cardVisual",
+        "fields": {
+          "Data": [
+            "MavenMarket_Measures.Transactions per Customer"
+          ]
+        },
+        "filters": []
+      }
+    ]
+  }
+]

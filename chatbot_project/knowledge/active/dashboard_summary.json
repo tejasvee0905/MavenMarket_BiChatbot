@@ -1,0 +1,170 @@
+{
+  "report_name": "MavenMarket Dashboard (tej.pbix)",
+  "theme": "AccessibleCityPark",
+  "total_pages": 3,
+  "total_visuals": 31,
+  "pages": [
+    {
+      "name": "Page 1 \u2014 Executive Overview",
+      "ordinal": 0,
+      "visual_count": 9,
+      "purpose": "High-level KPIs, revenue trends, geographic performance, and product analysis",
+      "visuals": [
+        {
+          "type": "cardVisual",
+          "shows": "KPI cards: Total Profit, Total Revenue, Profit Margin, Total Transactions, Return Rate"
+        },
+        {
+          "type": "areaChart",
+          "shows": "Monthly revenue trend by year (1997 vs 1998)"
+        },
+        {
+          "type": "azureMap",
+          "shows": "Revenue by country on a map, filterable by year"
+        },
+        {
+          "type": "columnChart",
+          "shows": "Top products by revenue"
+        },
+        {
+          "type": "donutChart",
+          "shows": "Revenue by Price Tier (Low/Mid/High)"
+        },
+        {
+          "type": "pieChart",
+          "shows": "Revenue by country (USA, Canada, Mexico)"
+        },
+        {
+          "type": "donutChart",
+          "shows": "Revenue Last 60 Days by month"
+        },
+        {
+          "type": "slicer",
+          "shows": "Year filter"
+        },
+        {
+          "type": "slicer",
+          "shows": "Country filter"
+        }
+      ],
+      "slicers": [
+        "Year",
+        "Country"
+      ]
+    },
+    {
+      "name": "Page 2 \u2014 Store Performance",
+      "ordinal": 1,
+      "visual_count": 9,
+      "purpose": "Store-level analysis: store-by-store metrics, regional comparison, store types",
+      "visuals": [
+        {
+          "type": "cardVisual",
+          "shows": "KPI cards: Store Count, Weekend Revenue, Revenue per Sqft, Total Quantity Sold, Total Returns, Total Products Sold"
+        },
+        {
+          "type": "tableEx",
+          "shows": "Store detail table: store name, revenue, profit, cost, profit margin"
+        },
+        {
+          "type": "barChart",
+          "shows": "Revenue by sales region"
+        },
+        {
+          "type": "donutChart",
+          "shows": "Revenue by store type"
+        },
+        {
+          "type": "lineChart",
+          "shows": "Transactions by store"
+        },
+        {
+          "type": "azureMap",
+          "shows": "Store locations on map"
+        },
+        {
+          "type": "slicer",
+          "shows": "Country filter"
+        },
+        {
+          "type": "slicer",
+          "shows": "Sales region filter"
+        },
+        {
+          "type": "slicer",
+          "shows": "Store type filter"
+        }
+      ],
+      "slicers": [
+        "Country",
+        "Sales Region",
+        "Store Type"
+      ]
+    },
+    {
+      "name": "Page 3 \u2014 Customer Analysis",
+      "ordinal": 2,
+      "visual_count": 13,
+      "purpose": "Customer demographics and behavior: gender, income, education, occupation, member cards",
+      "visuals": [
+        {
+          "type": "cardVisual",
+          "shows": "KPI cards: Total Customers, Transactions per Customer, Revenue per Customer, Total Quantity Sold"
+        },
+        {
+          "type": "pieChart",
+          "shows": "Transactions per customer by gender"
+        },
+        {
+          "type": "tableEx",
+          "shows": "Customer count by gender"
+        },
+        {
+          "type": "pieChart",
+          "shows": "Revenue by gender"
+        },
+        {
+          "type": "barChart",
+          "shows": "Revenue by yearly income bracket, split by gender"
+        },
+        {
+          "type": "donutChart",
+          "shows": "Revenue by education level"
+        },
+        {
+          "type": "donutChart",
+          "shows": "Revenue by occupation"
+        },
+        {
+          "type": "donutChart",
+          "shows": "Customer count by country"
+        },
+        {
+          "type": "donutChart",
+          "shows": "Revenue by marital status"
+        },
+        {
+          "type": "cardVisual",
+          "shows": "Transactions per Customer highlight"
+        },
+        {
+          "type": "slicer",
+          "shows": "Education filter"
+        },
+        {
+          "type": "slicer",
+          "shows": "Member card filter"
+        },
+        {
+          "type": "slicer",
+          "shows": "Occupation filter"
+        }
+      ],
+      "slicers": [
+        "Education",
+        "Member Card",
+        "Occupation"
+      ]
+    }
+  ]
+}

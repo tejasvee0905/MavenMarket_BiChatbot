@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Total Revenue",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Revenue = SUMX(MavenMarket_Transactions, MavenMarket_Transactions[quantity] * RELATED(MavenMarket_Products[product_retail_price]))",
+    "description": "Total revenue calculated as sum of (quantity * retail price) across all transactions",
+    "format": "Currency",
+    "used_in_pages": [
+      "Page 1",
+      "Page 2",
+      "Page 3"
+    ],
+    "used_in_visuals": [
+      "cardVisual",
+      "areaChart",
+      "azureMap",
+      "columnChart",
+      "donutChart",
+      "pieChart",
+      "tableEx",
+      "barChart"
+    ]
+  },
+  {
+    "name": "Total Cost",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Cost = SUMX(MavenMarket_Transactions, MavenMarket_Transactions[quantity] * RELATED(MavenMarket_Products[product_cost]))",
+    "description": "Total cost calculated as sum of (quantity * cost price) across all transactions",
+    "format": "Currency",
+    "used_in_pages": [
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "tableEx"
+    ]
+  },
+  {
+    "name": "Total Profit",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Profit = [Total Revenue] - [Total Cost]",
+    "description": "Total profit = revenue minus cost",
+    "format": "Currency",
+    "used_in_pages": [
+      "Page 1",
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual",
+      "tableEx"
+    ]
+  },
+  {
+    "name": "Profit Margin",
+    "table": "MavenMarket_Measures",
+    "expression": "Profit Margin = DIVIDE([Total Profit], [Total Revenue], 0)",
+    "description": "Profit margin percentage = total profit / total revenue",
+    "format": "Percentage",
+    "used_in_pages": [
+      "Page 1",
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual",
+      "tableEx"
+    ]
+  },
+  {
+    "name": "Total Transactions",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Transactions = COUNTROWS(MavenMarket_Transactions)",
+    "description": "Count of all transaction rows",
+    "format": "Whole Number",
+    "used_in_pages": [
+      "Page 1",
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual",
+      "lineChart"
+    ]
+  },
+  {
+    "name": "Total Returns",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Returns = SUM(MavenMarket_Returns[quantity])",
+    "description": "Total quantity of returned items",
+    "format": "Whole Number",
+    "used_in_pages": [
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Return Rate",
+    "table": "MavenMarket_Measures",
+    "expression": "Return Rate = DIVIDE([Total Returns], [Total Quantity Sold], 0)",
+    "description": "Return rate = total returns / total quantity sold",
+    "format": "Percentage",
+    "used_in_pages": [
+      "Page 1"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Total Quantity Sold",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Quantity Sold = SUM(MavenMarket_Transactions[quantity])",
+    "description": "Total quantity of items sold across all transactions",
+    "format": "Whole Number",
+    "used_in_pages": [
+      "Page 2",
+      "Page 3"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Total Customers",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Customers = DISTINCTCOUNT(MavenMarket_Transactions[customer_id])",
+    "description": "Count of distinct customers who made at least one transaction",
+    "format": "Whole Number",
+    "used_in_pages": [
+      "Page 3"
+    ],
+    "used_in_visuals": [
+      "cardVisual",
+      "tableEx",
+      "donutChart"
+    ]
+  },
+  {
+    "name": "Total Products Sold",
+    "table": "MavenMarket_Measures",
+    "expression": "Total Products Sold = DISTINCTCOUNT(MavenMarket_Transactions[product_id])",
+    "description": "Count of distinct products sold",
+    "format": "Whole Number",
+    "used_in_pages": [
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Store Count",
+    "table": "MavenMarket_Measures",
+    "expression": "Store Count = DISTINCTCOUNT(MavenMarket_Transactions[store_id])",
+    "description": "Count of distinct stores with transactions",
+    "format": "Whole Number",
+    "used_in_pages": [
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Revenue per Customer",
+    "table": "MavenMarket_Measures",
+    "expression": "Revenue per Customer = DIVIDE([Total Revenue], [Total Customers], 0)",
+    "description": "Average revenue per customer",
+    "format": "Currency",
+    "used_in_pages": [
+      "Page 3"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Transactions per Customer",
+    "table": "MavenMarket_Measures",
+    "expression": "Transactions per Customer = DIVIDE([Total Transactions], [Total Customers], 0)",
+    "description": "Average number of transactions per customer",
+    "format": "Decimal Number",
+    "used_in_pages": [
+      "Page 3"
+    ],
+    "used_in_visuals": [
+      "cardVisual",
+      "pieChart"
+    ]
+  },
+  {
+    "name": "Weekend Revenue",
+    "table": "MavenMarket_Measures",
+    "expression": "Weekend Revenue = CALCULATE([Total Revenue], MavenMarket_Calendar[day_of_week] IN {\"Saturday\", \"Sunday\"})",
+    "description": "Total revenue from weekend transactions (Saturday and Sunday)",
+    "format": "Currency",
+    "used_in_pages": [
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Revenue per Sqft",
+    "table": "MavenMarket_Measures",
+    "expression": "Revenue per Sqft = DIVIDE([Total Revenue], SUM(MavenMarket_Stores[total_sqft]), 0)",
+    "description": "Revenue per square foot of store space",
+    "format": "Currency",
+    "used_in_pages": [
+      "Page 2"
+    ],
+    "used_in_visuals": [
+      "cardVisual"
+    ]
+  },
+  {
+    "name": "Revenue Last 60 Days",
+    "table": "MavenMarket_Measures",
+    "expression": "Revenue Last 60 Days = CALCULATE([Total Revenue], DATESINPERIOD(MavenMarket_Calendar[transaction_date], MAX(MavenMarket_Calendar[transaction_date]), -60, DAY))",
+    "description": "Rolling 60-day revenue from the last date in context",
+    "format": "Currency",
+    "used_in_pages": [
+      "Page 1"
+    ],
+    "used_in_visuals": [
+      "donutChart"
+    ]
+  }
+]

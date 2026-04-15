@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 76.23951676156095,
+        "y": 16.817540462109033
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "MavenMarket_Transactions",
+          "nodeLineageTag": "7b15276b-2eea-4c08-9889-58cb961785d6",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5.586293596756093,
+            "y": 420.4523045181749
+          },
+          "nodeIndex": "MavenMarket_Stores",
+          "nodeLineageTag": "6d4c2310-ada8-4b17-8c15-2af2ac6974a2",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 323.627346706498,
+            "y": 195.98899702131
+          },
+          "nodeIndex": "MavenMarket_Calendar",
+          "nodeLineageTag": "29d1cb6e-4da8-4172-a7db-5da9d0f30a0a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 885.0166309380323,
+            "y": 0
+          },
+          "nodeIndex": "MavenMarket_Customers",
+          "nodeLineageTag": "1269d11f-3d89-484d-a935-d52518f8f232",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 611.0384362887879,
+            "y": 200.10364257623112
+          },
+          "nodeIndex": "MavenMarket_Products",
+          "nodeLineageTag": "e0a168a6-ee19-4392-9b53-020754a0120f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 332.7457738944938,
+            "y": 730.4677250794713
+          },
+          "nodeIndex": "MavenMarket_Regions",
+          "nodeLineageTag": "f0dd3654-8537-46c0-b660-9205e2a08fb9",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 854.3226943380206,
+            "y": 563.8541736797158
+          },
+          "nodeIndex": "MavenMarket_Returns",
+          "nodeLineageTag": "00d4ed14-e5a4-4445-8e8e-2f7252399d6f",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1169.0166309380324,
+            "y": 389.23386253973564
+          },
+          "nodeIndex": "MavenMarket_Measures",
+          "nodeLineageTag": "c370e30a-7a3e-434c-b81d-1a9d6a417dc5",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 89.1925905205695,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

@@ -1,0 +1,119 @@
+{"topic": "Overall KPIs", "insight": "MavenMarket overall performance: Total Revenue: $1,764,546.44, Total Cost: $711,727.66, Total Profit: $1,052,818.78, Profit Margin: 59.7%, Total Transactions: 269,720, Total Quantity Sold: 833,489, Total Returns: 8,289, Return Rate: 1.0%, Total Customers: 10,281, Total Products: 1,560, Total Stores: 24."}
+{"topic": "Customer Count by Gender", "insight": "Customer count by gender: Female (F): 5,097, Male (M): 5,184. Total customers: 10,281.", "data": {"F": 5097, "M": 5184}}
+{"topic": "Customer Count by Marital Status", "insight": "Customer count by marital status: Married (M): 5,142, Single (S): 5,139. Total customers: 10,281.", "data": {"Married": 5142, "Single": 5139}}
+{"topic": "Customer Count in USA", "insight": "Number of customers in USA: 7,359.", "data": {"country": "USA", "count": 7359}}
+{"topic": "Customer Count in Canada", "insight": "Number of customers in Canada: 1,717.", "data": {"country": "Canada", "count": 1717}}
+{"topic": "Customer Count in Mexico", "insight": "Number of customers in Mexico: 1,205.", "data": {"country": "Mexico", "count": 1205}}
+{"topic": "Customer Count by Country", "insight": "Customer count by country: USA: 7,359, Canada: 1,717, Mexico: 1,205. Total: 10,281."}
+{"topic": "Customer Count by Education", "insight": "Customer count by education level: Partial High School: 3,094, High School Degree: 3,039, Bachelors Degree: 2,619, Partial College: 990, Graduate Degree: 539."}
+{"topic": "Customer Count by Occupation", "insight": "Customer count by occupation: Professional: 3,382, Skilled Manual: 2,650, Manual: 2,583, Management: 1,461, Clerical: 205."}
+{"topic": "Customer Count by Income Bracket", "insight": "Customer count by yearly income: $30K - $50K: 3,327, $10K - $30K: 2,222, $50K - $70K: 1,845, $70K - $90K: 1,207, $130K - $150K: 506, $110K - $130K: 493, $90K - $110K: 458, $150K +: 223."}
+{"topic": "Customer Count by Member Card", "insight": "Customer count by member card tier: Bronze: 5,703, Normal: 2,420, Golden: 1,198, Silver: 960."}
+{"topic": "Customer Count by Homeowner Status", "insight": "Customer count by homeowner status: Homeowner (Y): 6,187, Non-homeowner (N): 4,094."}
+{"topic": "Customer Children Statistics", "insight": "Customer children statistics: Average children per customer: 2.5, Max children: 5, Customers with 0 children: 1,038, Customers with 1+ children: 9,243."}
+{"topic": "Marital Status in Mexico", "insight": "In Mexico: Married customers: 595, Single customers: 610, Total: 1,205.", "data": {"country": "Mexico", "Married": 595, "Single": 610}}
+{"topic": "Marital Status in Canada", "insight": "In Canada: Married customers: 885, Single customers: 832, Total: 1,717.", "data": {"country": "Canada", "Married": 885, "Single": 832}}
+{"topic": "Marital Status in USA", "insight": "In USA: Married customers: 3,662, Single customers: 3,697, Total: 7,359.", "data": {"country": "USA", "Married": 3662, "Single": 3697}}
+{"topic": "Gender Distribution in Mexico", "insight": "In Mexico: Female customers: 617, Male customers: 588, Total: 1,205.", "data": {"country": "Mexico", "Female": 617, "Male": 588}}
+{"topic": "Gender Distribution in Canada", "insight": "In Canada: Female customers: 856, Male customers: 861, Total: 1,717.", "data": {"country": "Canada", "Female": 856, "Male": 861}}
+{"topic": "Gender Distribution in USA", "insight": "In USA: Female customers: 3,624, Male customers: 3,735, Total: 7,359.", "data": {"country": "USA", "Female": 3624, "Male": 3735}}
+{"topic": "Customer Count by Marital Status and Gender", "insight": "Married Female: 2,575, Married Male: 2,567, Single Female: 2,522, Single Male: 2,617."}
+{"topic": "Revenue by Country", "insight": "Revenue by country: USA: $1,177,956.44, Mexico: $478,915.66, Canada: $107,674.34. Total: $1,764,546.44."}
+{"topic": "Revenue by Country in 1997", "insight": "Revenue by country in 1997: USA: $565,238.13. Total for 1997: $565,238.13."}
+{"topic": "Revenue by Country in 1998", "insight": "Revenue by country in 1998: USA: $612,718.31, Mexico: $478,915.66, Canada: $107,674.34. Total for 1998: $1,199,308.31."}
+{"topic": "Revenue in 1997", "insight": "Total revenue in 1997: $565,238.13."}
+{"topic": "Revenue in 1998", "insight": "Total revenue in 1998: $1,199,308.31."}
+{"topic": "Year-over-Year Revenue Growth", "insight": "Revenue grew 112.2% from 1997 ($565,238.13) to 1998 ($1,199,308.31)."}
+{"topic": "Revenue by Gender", "insight": "Revenue by gender: Female (F) $891,726.87, Male (M) $872,819.57."}
+{"topic": "Revenue by Marital Status", "insight": "Revenue by marital status: Married (M) $875,173.26, Single (S) $889,373.18."}
+{"topic": "Revenue by Gender in USA", "insight": "Revenue by gender in USA: Female: $579,670.62, Male: $598,285.82."}
+{"topic": "Revenue by Gender in Mexico", "insight": "Revenue by gender in Mexico: Female: $260,276.56, Male: $218,639.10."}
+{"topic": "Revenue by Gender in Canada", "insight": "Revenue by gender in Canada: Female: $51,779.69, Male: $55,894.65."}
+{"topic": "Revenue by Marital Status in USA", "insight": "Revenue by marital status in USA: Married: $583,605.13, Single: $594,351.31."}
+{"topic": "Revenue by Marital Status in Mexico", "insight": "Revenue by marital status in Mexico: Married: $236,949.05, Single: $241,966.61."}
+{"topic": "Revenue by Marital Status in Canada", "insight": "Revenue by marital status in Canada: Married: $54,619.08, Single: $53,055.26."}
+{"topic": "Revenue by Store Type", "insight": "Revenue by store type: Supermarket: $789,601.26, Deluxe Supermarket: $669,726.65, Gourmet Supermarket: $152,980.27, Mid-Size Grocery: $118,534.14, Small Grocery: $33,704.12."}
+{"topic": "Revenue by Income Bracket", "insight": "Revenue by customer income: $30K - $50K: $580,785.96, $10K - $30K: $381,157.16, $50K - $70K: $297,444.80, $70K - $90K: $216,630.57, $130K - $150K: $97,136.36, $110K - $130K: $78,573.56, $90K - $110K: $77,619.48, $150K +: $35,198.55."}
+{"topic": "Revenue by Education Level", "insight": "Revenue by education: Partial High School: $533,188.77, High School Degree: $521,722.58, Bachelors Degree: $451,693.15, Partial College: $164,293.97, Graduate Degree: $93,647.97."}
+{"topic": "Revenue by Occupation", "insight": "Revenue by occupation: Professional: $573,998.70, Skilled Manual: $475,878.39, Manual: $429,081.29, Management: $255,017.71, Clerical: $30,570.35."}
+{"topic": "Revenue by Member Card Tier", "insight": "Revenue by member card: Bronze: $986,502.65, Normal: $406,875.66, Golden: $223,670.66, Silver: $147,497.47."}
+{"topic": "Revenue per Customer", "insight": "Average revenue per customer: $171.63. Total customers who made purchases: 8,842."}
+{"topic": "Weekend vs Weekday Revenue", "insight": "Weekend revenue: $502,095.69 (28.5% of total). Weekday revenue: $1,262,450.75 (71.5% of total)."}
+{"topic": "Top 5 Stores by Revenue", "insight": "Top 5 stores by revenue: Store 13 (Rev: $170,398.94, Profit: $101,714.65, Margin: 59.7%), Store 17 (Rev: $157,695.90, Profit: $94,087.96, Margin: 59.7%), Store 15 (Rev: $115,981.46, Profit: $69,148.47, Margin: 59.6%), Store 11 (Rev: $115,334.62, Profit: $68,857.27, Margin: 59.7%), Store 24 (Rev: $111,378.46, Profit: $66,459.56, Margin: 59.7%)."}
+{"topic": "Bottom 5 Stores by Revenue", "insight": "Bottom 5 stores by revenue: Store 20 (Rev: $22,412.03), Store 22 (Rev: $9,956.85), Store 2 (Rev: $9,519.13), Store 14 (Rev: $9,324.94), Store 5 (Rev: $4,903.20)."}
+{"topic": "Store Performance: Store 13", "insight": "Store 13: Revenue $170,398.94, Profit $101,714.65, Profit Margin 59.7%, Transactions: 25,865, Quantity Sold: 80,762."}
+{"topic": "Store Performance: Store 17", "insight": "Store 17: Revenue $157,695.90, Profit $94,087.96, Profit Margin 59.7%, Transactions: 23,600, Quantity Sold: 74,347."}
+{"topic": "Store Performance: Store 15", "insight": "Store 15: Revenue $115,981.46, Profit $69,148.47, Profit Margin 59.6%, Transactions: 17,447, Quantity Sold: 54,865."}
+{"topic": "Store Performance: Store 11", "insight": "Store 11: Revenue $115,334.62, Profit $68,857.27, Profit Margin 59.7%, Transactions: 17,286, Quantity Sold: 54,526."}
+{"topic": "Store Performance: Store 24", "insight": "Store 24: Revenue $111,378.46, Profit $66,459.56, Profit Margin 59.7%, Transactions: 16,550, Quantity Sold: 52,417."}
+{"topic": "Store Performance: Store 7", "insight": "Store 7: Revenue $111,311.54, Profit $66,424.49, Profit Margin 59.7%, Transactions: 16,726, Quantity Sold: 52,475."}
+{"topic": "Store Performance: Store 3", "insight": "Store 3: Revenue $110,877.88, Profit $66,055.01, Profit Margin 59.6%, Transactions: 16,598, Quantity Sold: 51,914."}
+{"topic": "Store Performance: Store 16", "insight": "Store 16: Revenue $110,485.16, Profit $65,911.35, Profit Margin 59.7%, Transactions: 16,517, Quantity Sold: 52,489."}
+{"topic": "Store Performance: Store 6", "insight": "Store 6: Revenue $98,114.78, Profit $58,553.21, Profit Margin 59.7%, Transactions: 14,775, Quantity Sold: 46,129."}
+{"topic": "Store Performance: Store 12", "insight": "Store 12: Revenue $87,623.61, Profit $52,257.30, Profit Margin 59.6%, Transactions: 13,215, Quantity Sold: 41,808."}
+{"topic": "Store Performance: Store 8", "insight": "Store 8: Revenue $87,253.65, Profit $51,991.14, Profit Margin 59.6%, Transactions: 13,014, Quantity Sold: 40,994."}
+{"topic": "Store Performance: Store 19", "insight": "Store 19: Revenue $85,262.31, Profit $50,954.98, Profit Margin 59.8%, Transactions: 12,770, Quantity Sold: 40,152."}
+{"topic": "Store Performance: Store 21", "insight": "Store 21: Revenue $81,492.24, Profit $48,653.16, Profit Margin 59.7%, Transactions: 12,337, Quantity Sold: 38,608."}
+{"topic": "Store Performance: Store 10", "insight": "Store 10: Revenue $57,835.36, Profit $34,521.11, Profit Margin 59.7%, Transactions: 8,744, Quantity Sold: 27,334."}
+{"topic": "Store Performance: Store 1", "insight": "Store 1: Revenue $56,396.78, Profit $33,687.89, Profit Margin 59.7%, Transactions: 8,473, Quantity Sold: 26,679."}
+{"topic": "Store Performance: Store 4", "insight": "Store 4: Revenue $54,865.49, Profit $32,679.24, Profit Margin 59.6%, Transactions: 8,267, Quantity Sold: 26,024."}
+{"topic": "Store Performance: Store 23", "insight": "Store 23: Revenue $47,576.78, Profit $28,390.19, Profit Margin 59.7%, Transactions: 7,107, Quantity Sold: 22,377."}
+{"topic": "Store Performance: Store 9", "insight": "Store 9: Revenue $25,371.42, Profit $15,113.31, Profit Margin 59.6%, Transactions: 3,817, Quantity Sold: 11,910."}
+{"topic": "Store Performance: Store 18", "insight": "Store 18: Revenue $23,173.91, Profit $13,848.49, Profit Margin 59.8%, Transactions: 3,469, Quantity Sold: 11,080."}
+{"topic": "Store Performance: Store 20", "insight": "Store 20: Revenue $22,412.03, Profit $13,386.02, Profit Margin 59.7%, Transactions: 3,321, Quantity Sold: 10,600."}
+{"topic": "Store Performance: Store 22", "insight": "Store 22: Revenue $9,956.85, Profit $5,946.14, Profit Margin 59.7%, Transactions: 2,817, Quantity Sold: 4,644."}
+{"topic": "Store Performance: Store 2", "insight": "Store 2: Revenue $9,519.13, Profit $5,672.25, Profit Margin 59.6%, Transactions: 2,769, Quantity Sold: 4,518."}
+{"topic": "Store Performance: Store 14", "insight": "Store 14: Revenue $9,324.94, Profit $5,569.91, Profit Margin 59.7%, Transactions: 2,766, Quantity Sold: 4,436."}
+{"topic": "Store Performance: Store 5", "insight": "Store 5: Revenue $4,903.20, Profit $2,935.68, Profit Margin 59.9%, Transactions: 1,470, Quantity Sold: 2,401."}
+{"topic": "Stores in USA", "insight": "Store revenue in USA: Store 13: $170,398.94, Store 17: $157,695.90, Store 15: $115,981.46, Store 11: $115,334.62, Store 24: $111,378.46, Store 7: $111,311.54, Store 3: $110,877.88, Store 16: $110,485.16, Store 6: $98,114.78, Store 23: $47,576.78, Store 22: $9,956.85, Store 2: $9,519.13, Store 14: $9,324.94."}
+{"topic": "Stores in Mexico", "insight": "Store revenue in Mexico: Store 12: $87,623.61, Store 8: $87,253.65, Store 21: $81,492.24, Store 10: $57,835.36, Store 1: $56,396.78, Store 4: $54,865.49, Store 9: $25,371.42, Store 18: $23,173.91, Store 5: $4,903.20."}
+{"topic": "Stores in Canada", "insight": "Store revenue in Canada: Store 19: $85,262.31, Store 20: $22,412.03."}
+{"topic": "Revenue by Sales Region", "insight": "Revenue by sales region: North West: $847,826.72, Mexico Central: $330,362.03, South West: $320,804.78, Canada West: $107,674.34, Mexico South: $87,253.65, Mexico West: $61,299.98, Central West: $9,324.94."}
+{"topic": "Revenue by Sales District", "insight": "Revenue by sales district: Los Angeles: $209,426.32, Salem: $170,398.94, Tacoma: $157,695.90, Seattle: $115,981.46, Portland: $115,334.62, San Diego: $111,378.46, Bremerton: $110,877.88, Hidalgo: $110,797.52, Spokane: $110,485.16, Mexico City: $106,863.66, Marida: $87,253.65, Vancouver: $85,262.31, Orizaba: $57,835.36, Acapulco: $56,396.78, Camacho: $54,865.49."}
+{"topic": "Return Rate by Store", "insight": "Stores with highest return rates: Store 8: 1.2%, Store 20: 1.1%, Store 23: 1.1%, Store 12: 1.1%, Store 16: 1.1%, Store 19: 1.0%, Store 11: 1.0%, Store 24: 1.0%, Store 17: 1.0%, Store 18: 1.0%."}
+{"topic": "Top 10 Products by Revenue", "insight": "Top 10 products by revenue: Hermanos Green Pepper: $2,489.70, Hilltop Mint Mouthwash: $2,447.12, Carlson Head Cheese: $2,417.73, Great Pumpernickel Bread: $2,408.56, Fabulous Strawberry Drink: $2,377.90, Fort West BBQ Potato Chips: $2,328.00, Moms Foot-Long Hot Dogs: $2,325.40, Even Better Large Curd Cottage Cheese: $2,322.60, Red Wing Plastic Knives: $2,321.25, High Top New Potatos: $2,313.85."}
+{"topic": "Top 10 Products by Profit", "insight": "Top 10 products by profit: Hermanos Green Pepper: $1,670.55, Imagine Popsicles: $1,513.89, Hilltop Mint Mouthwash: $1,493.96, Super Extra Chunky Peanut Butter: $1,484.73, Nationeel Potato Chips: $1,479.50, Fabulous Strawberry Drink: $1,474.90, Booker Strawberry Yogurt: $1,452.56, BBB Best Apple Preserves: $1,439.90, Hermanos New Potatos: $1,431.08, High Quality Scented Toilet Tissue: $1,413.28."}
+{"topic": "Bottom 10 Products by Profit", "insight": "Lowest profit products: Denny Glass Cleaner: $128.96, Super Columbian Coffee: $132.30, Cormorant Large Sponge: $137.16, Jardon Spaghetti: $141.60, Club Sour Cream: $142.80, Modell Wheat Bread: $143.10, Fast Buttered Popcorn: $143.26, Big Time Grape Popsicles: $145.50, Booker 2% Milk: $145.87, Choice Bubble Gum: $146.52."}
+{"topic": "Top 10 Brands by Revenue", "insight": "Top 10 brands: Hermanos: $56,659.48, Tell Tale: $51,561.22, Ebony: $49,727.46, Tri-State: $49,347.75, High Top: $47,200.53, Nationeel: $45,384.82, Horatio: $43,787.75, Best Choice: $42,738.02, Fast: $40,532.84, Fort West: $40,061.03."}
+{"topic": "Product Statistics", "insight": "Total products: 1,560. Recyclable products: 873. Low-fat products: 552. Average retail price: $2.12. Average cost: $0.85."}
+{"topic": "Brand Count", "insight": "Total unique brands: 111."}
+{"topic": "Most Returned Products", "insight": "Top 10 most returned products: Hermanos Red Pepper: 17 units returned, Walrus Merlot Wine: 15 units returned, Hermanos Oranges: 15 units returned, Tell Tale Walnuts: 14 units returned, Super Creamy Peanut Butter: 14 units returned, Tell Tale Cauliflower: 14 units returned, Monarch Rice Medly: 14 units returned, Shady Lake Spaghetti: 14 units returned, Fort West Beef Jerky: 13 units returned, Horatio Sesame Crackers: 13 units returned."}
+{"topic": "Monthly Revenue Trend", "insight": "Best revenue month: December 1998 ($120,160.84). Worst revenue month: October 1997 ($42,342.27)."}
+{"topic": "Quarterly Revenue", "insight": "Quarterly revenue: 1997 Q1: $139,628.35, 1997 Q2: $132,666.27, 1997 Q3: $140,271.89, 1997 Q4: $152,671.62, 1998 Q1: $290,873.18, 1998 Q2: $287,009.99, 1998 Q3: $295,040.55, 1998 Q4: $326,384.59."}
+{"topic": "Revenue by Day of Week", "insight": "Revenue by day of week: Thursday: $266,162.12, Monday: $264,794.31, Wednesday: $252,219.32, Sunday: $251,835.03, Saturday: $250,260.66, Friday: $245,145.17, Tuesday: $234,129.83."}
+{"topic": "Monthly Revenue 1998", "insight": "Monthly revenue in 1998: April: $94,776.14, August: $94,718.51, December: $120,160.84, February: $94,498.00, January: $98,155.28, July: $98,943.44, June: $97,050.04, March: $98,219.90, May: $95,183.81, November: $113,787.84, October: $92,435.91, September: $101,378.60."}
+{"topic": "Monthly Revenue 1997", "insight": "Monthly revenue in 1997: April: $42,878.25, August: $46,199.04, December: $56,965.64, February: $44,058.79, January: $45,539.69, July: $50,246.88, June: $45,331.73, March: $50,029.87, May: $44,456.29, November: $53,363.71, October: $42,342.27, September: $43,825.97."}
+{"topic": "Profit by Country", "insight": "Profit by country: USA: $702,790.46, Mexico: $285,687.32, Canada: $64,341.00. Total profit: $1,052,818.78."}
+{"topic": "Profit by Store Type", "insight": "Profit by store type: Supermarket: $471,065.15, Deluxe Supermarket: $399,659.19, Gourmet Supermarket: $91,232.45, Mid-Size Grocery: $70,738.01, Small Grocery: $20,123.98."}
+{"topic": "Profit in 1997", "insight": "Total profit in 1997: $337,125.48."}
+{"topic": "Profit in 1998", "insight": "Total profit in 1998: $715,693.30."}
+{"topic": "Profit by Gender", "insight": "Profit by gender: Female: $532,109.06, Male: $520,709.72."}
+{"topic": "Transactions by Country", "insight": "Transaction count by country: USA: 180,823, Mexico: 72,806, Canada: 16,091."}
+{"topic": "Transactions by Year", "insight": "Transaction count by year: 1997: 86,837, 1998: 182,883."}
+{"topic": "Quantity Sold by Country", "insight": "Quantity sold by country: USA: 555,899, Mexico: 226,838, Canada: 50,752."}
+{"topic": "Returns by Country", "insight": "Returns by country: USA: 5,431 units, Mexico: 2,317 units, Canada: 541 units. Total returns: 8,289."}
+{"topic": "Returns by Year", "insight": "Returns by year: 1997: 2,638 units, 1998: 5,651 units."}
+{"topic": "Store Details: Store 1", "insight": "Store 1: Type: Supermarket, City: Acapulco, State: Guerrero, Country: Mexico, Total sqft: 23,593, Grocery sqft: 17,475."}
+{"topic": "Store Details: Store 2", "insight": "Store 2: Type: Small Grocery, City: Bellingham, State: WA, Country: USA, Total sqft: 28,206, Grocery sqft: 22,271."}
+{"topic": "Store Details: Store 3", "insight": "Store 3: Type: Supermarket, City: Bremerton, State: WA, Country: USA, Total sqft: 39,696, Grocery sqft: 24,390."}
+{"topic": "Store Details: Store 4", "insight": "Store 4: Type: Gourmet Supermarket, City: Camacho, State: Zacatecas, Country: Mexico, Total sqft: 23,759, Grocery sqft: 16,844."}
+{"topic": "Store Details: Store 5", "insight": "Store 5: Type: Small Grocery, City: Guadalajara, State: Jalisco, Country: Mexico, Total sqft: 24,597, Grocery sqft: 15,012."}
+{"topic": "Store Details: Store 6", "insight": "Store 6: Type: Gourmet Supermarket, City: Beverly Hills, State: CA, Country: USA, Total sqft: 23,688, Grocery sqft: 15,337."}
+{"topic": "Store Details: Store 7", "insight": "Store 7: Type: Supermarket, City: Los Angeles, State: CA, Country: USA, Total sqft: 23,598, Grocery sqft: 14,210."}
+{"topic": "Store Details: Store 8", "insight": "Store 8: Type: Deluxe Supermarket, City: Merida, State: Yucatan, Country: Mexico, Total sqft: 30,797, Grocery sqft: 20,141."}
+{"topic": "Store Details: Store 9", "insight": "Store 9: Type: Mid-Size Grocery, City: Mexico City, State: DF, Country: Mexico, Total sqft: 36,509, Grocery sqft: 22,450."}
+{"topic": "Store Details: Store 10", "insight": "Store 10: Type: Supermarket, City: Orizaba, State: Veracruz, Country: Mexico, Total sqft: 34,791, Grocery sqft: 26,354."}
+{"topic": "Store Details: Store 11", "insight": "Store 11: Type: Supermarket, City: Portland, State: OR, Country: USA, Total sqft: 20,319, Grocery sqft: 16,232."}
+{"topic": "Store Details: Store 12", "insight": "Store 12: Type: Deluxe Supermarket, City: Hidalgo, State: Zacatecas, Country: Mexico, Total sqft: 30,584, Grocery sqft: 21,938."}
+{"topic": "Store Details: Store 13", "insight": "Store 13: Type: Deluxe Supermarket, City: Salem, State: OR, Country: USA, Total sqft: 27,694, Grocery sqft: 18,670."}
+{"topic": "Store Details: Store 14", "insight": "Store 14: Type: Small Grocery, City: San Francisco, State: CA, Country: USA, Total sqft: 22,478, Grocery sqft: 15,321."}
+{"topic": "Store Details: Store 15", "insight": "Store 15: Type: Supermarket, City: Seattle, State: WA, Country: USA, Total sqft: 21,215, Grocery sqft: 13,305."}
+{"topic": "Store Details: Store 16", "insight": "Store 16: Type: Supermarket, City: Spokane, State: WA, Country: USA, Total sqft: 30,268, Grocery sqft: 22,063."}
+{"topic": "Store Details: Store 17", "insight": "Store 17: Type: Deluxe Supermarket, City: Tacoma, State: WA, Country: USA, Total sqft: 33,858, Grocery sqft: 22,123."}
+{"topic": "Store Details: Store 18", "insight": "Store 18: Type: Mid-Size Grocery, City: Hidalgo, State: Zacatecas, Country: Mexico, Total sqft: 38,382, Grocery sqft: 30,351."}
+{"topic": "Store Details: Store 19", "insight": "Store 19: Type: Deluxe Supermarket, City: Vancouver, State: BC, Country: Canada, Total sqft: 23,112, Grocery sqft: 16,418."}
+{"topic": "Store Details: Store 20", "insight": "Store 20: Type: Mid-Size Grocery, City: Victoria, State: BC, Country: Canada, Total sqft: 34,452, Grocery sqft: 27,463."}
+{"topic": "Store Details: Store 21", "insight": "Store 21: Type: Deluxe Supermarket, City: San Andres, State: DF, Country: Mexico, Total sqft: 32,717, Grocery sqft: 25,453."}
+{"topic": "Store Details: Store 22", "insight": "Store 22: Type: Small Grocery, City: Walla Walla, State: WA, Country: USA, Total sqft: 35,918, Grocery sqft: 24,837."}
+{"topic": "Store Details: Store 23", "insight": "Store 23: Type: Mid-Size Grocery, City: Yakima, State: WA, Country: USA, Total sqft: 29,182, Grocery sqft: 19,283."}
+{"topic": "Store Details: Store 24", "insight": "Store 24: Type: Supermarket, City: San Diego, State: CA, Country: USA, Total sqft: 27,372, Grocery sqft: 18,293."}
