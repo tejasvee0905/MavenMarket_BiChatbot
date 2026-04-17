@@ -12,9 +12,9 @@ build/
 # ── Virtual Environment ──
 venv/
 
-# ── FAISS index (rebuild with: python -m ai.embed_pipeline) ──
-ai/vectorstore/*.faiss
-ai/vectorstore/*.pkl
+# ── FAISS index (included for Streamlit Cloud) ──
+# ai/vectorstore/*.faiss
+# ai/vectorstore/*.pkl
 
 # ── PBIX extracted contents (large binary files) ──
 data/pbix/pbix_extracted/

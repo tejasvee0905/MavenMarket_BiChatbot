@@ -9,9 +9,9 @@ __pycache__/
 # ── Virtual Environment ──
 chatbot_project/venv/
 
-# ── FAISS index (rebuild with: python -m ai.embed_pipeline) ──
-chatbot_project/ai/vectorstore/*.faiss
-chatbot_project/ai/vectorstore/*.pkl
+# ── FAISS index (included for Streamlit Cloud deployment) ──
+# chatbot_project/ai/vectorstore/*.faiss
+# chatbot_project/ai/vectorstore/*.pkl
 
 # ── PBIX extracted contents (large binary files) ──
 data/pbix/pbix_extracted/
