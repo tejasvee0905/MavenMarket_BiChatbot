@@ -12,10 +12,13 @@ from dotenv import load_dotenv
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 
 # Inject Streamlit Cloud secrets into env vars (for ai/ modules that use os.getenv)
-if hasattr(st, "secrets"):
-    for key in ("GITHUB_TOKEN", "LLM_MODEL", "EMBEDDING_MODEL", "BASE_URL"):
-        if key in st.secrets and key not in os.environ:
-            os.environ[key] = st.secrets[key]
+try:
+    if hasattr(st, "secrets") and len(st.secrets) > 0:
+        for key in ("GITHUB_TOKEN", "LLM_MODEL", "EMBEDDING_MODEL", "BASE_URL"):
+            if key in st.secrets and key not in os.environ:
+                os.environ[key] = st.secrets[key]
+except Exception:
+    pass  # No secrets.toml — env vars come from Render/host directly
 
 from ai.rag_chain import get_rag_chain, ask_with_history
 
