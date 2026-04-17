@@ -5,7 +5,7 @@ Used as a fallback when the knowledge base doesn't have a pre-computed answer.
 import os
 import pandas as pd
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data", "csvs")
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "csvs")
 
 # Pre-load all dataframes at import time
 _dataframes = {}
