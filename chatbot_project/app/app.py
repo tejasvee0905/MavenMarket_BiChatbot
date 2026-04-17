@@ -1,8 +1,7 @@
 import os
 import sys
 import json
-import streamlit as st
-import plotly.graph_objects as go
+import traceback
 
 # Add project root to path so we can import ai modules
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
@@ -11,16 +10,24 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from dotenv import load_dotenv
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 
-# Inject Streamlit Cloud secrets into env vars (for ai/ modules that use os.getenv)
 try:
-    if hasattr(st, "secrets") and len(st.secrets) > 0:
-        for key in ("GITHUB_TOKEN", "LLM_MODEL", "EMBEDDING_MODEL", "BASE_URL"):
-            if key in st.secrets and key not in os.environ:
-                os.environ[key] = st.secrets[key]
-except Exception:
-    pass  # No secrets.toml — env vars come from Render/host directly
+    import streamlit as st
+    import plotly.graph_objects as go
 
-from ai.rag_chain import get_rag_chain, ask_with_history
+    # Inject Streamlit Cloud secrets into env vars (for ai/ modules that use os.getenv)
+    try:
+        if hasattr(st, "secrets") and len(st.secrets) > 0:
+            for key in ("GITHUB_TOKEN", "LLM_MODEL", "EMBEDDING_MODEL", "BASE_URL"):
+                if key in st.secrets and key not in os.environ:
+                    os.environ[key] = st.secrets[key]
+    except Exception:
+        pass  # No secrets.toml — env vars come from Render/host directly
+
+    from ai.rag_chain import get_rag_chain, ask_with_history
+except Exception as e:
+    print(f"STARTUP ERROR: {e}", flush=True)
+    traceback.print_exc()
+    sys.exit(1)
 
 
 # ═══════════════════════════════════════════════════════════════
