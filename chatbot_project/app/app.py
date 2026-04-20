@@ -577,3 +577,28 @@ if question := st.chat_input("Ask about MavenMarket dashboard..."):
         "chart": chart,
         "sources": sources
     })
+
+# ═══════════════════════════════════════════════════════════════
+# FOOTER
+# ═══════════════════════════════════════════════════════════════
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 0.85rem;
+        color: rgba(224, 232, 255, 0.5);
+        background: linear-gradient(transparent, rgba(10, 14, 33, 0.95));
+        letter-spacing: 0.5px;
+        z-index: 999;
+    }
+    </style>
+    <div class="footer">Created by : Tejasvee (ITH/IT)</div>
+    """,
+    unsafe_allow_html=True,
+)
