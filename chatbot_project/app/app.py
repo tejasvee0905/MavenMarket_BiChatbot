@@ -441,7 +441,7 @@ with st.sidebar:
         _icon_b64 = _b64.b64encode(_f.read()).decode()
     st.markdown(
         f'<div style="text-align:center; padding: 0.5rem 0;">'
-        f'<img src="data:image/png;base64,{_icon_b64}" style="width:80px; border-radius:16px;"><br>'
+        f'<img src="data:image/png;base64,{_icon_b64}" style="width:120px; border-radius:16px;"><br>'
         f'<span style="font-size:1.1rem; font-weight:600; color:#e0e0ff;">MavenMarket AI</span>'
         f'</div>', unsafe_allow_html=True)
     st.markdown("---")
