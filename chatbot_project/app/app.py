@@ -435,10 +435,15 @@ section[data-testid="stSidebar"] hr {
 
 # ── Sidebar ──
 with st.sidebar:
-    st.markdown('<div style="text-align:center; padding: 0.5rem 0;">'
-                '<span style="font-size:2rem;">📊</span><br>'
-                '<span style="font-size:1.1rem; font-weight:600; color:#e0e0ff;">MavenMarket AI</span>'
-                '</div>', unsafe_allow_html=True)
+    import base64 as _b64
+    _icon_path = os.path.join(os.path.dirname(__file__), "assets", "icon.png")
+    with open(_icon_path, "rb") as _f:
+        _icon_b64 = _b64.b64encode(_f.read()).decode()
+    st.markdown(
+        f'<div style="text-align:center; padding: 0.5rem 0;">'
+        f'<img src="data:image/png;base64,{_icon_b64}" style="width:80px; border-radius:16px;"><br>'
+        f'<span style="font-size:1.1rem; font-weight:600; color:#e0e0ff;">MavenMarket AI</span>'
+        f'</div>', unsafe_allow_html=True)
     st.markdown("---")
 
     # ── Model Parameters ──
