@@ -586,14 +586,10 @@ st.markdown(
     <style>
     .footer {
         position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-        font-size: 0.85rem;
-        color: rgba(224, 232, 255, 0.5);
-        background: linear-gradient(transparent, rgba(10, 14, 33, 0.95));
+        bottom: 10px;
+        right: 20px;
+        font-size: 0.8rem;
+        color: rgba(224, 232, 255, 0.45);
         letter-spacing: 0.5px;
         z-index: 999;
     }
