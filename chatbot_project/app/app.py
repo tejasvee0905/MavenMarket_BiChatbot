@@ -123,9 +123,11 @@ def render_chart(chart_data: dict, key: str = None):
     st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False}, key=key)
 
 # ── Page Config ──
+from PIL import Image
+_icon = Image.open(os.path.join(os.path.dirname(__file__), "assets", "icon.png"))
 st.set_page_config(
     page_title="MavenMarket BI Assistant",
-    page_icon="📊",
+    page_icon=_icon,
     layout="wide",
     initial_sidebar_state="expanded"
 )
